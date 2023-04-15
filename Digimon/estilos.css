@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+}
+
+
+.table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.table img {
+    max-width: 50px;
+    height: auto;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
